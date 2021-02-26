@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+      color: #FFA500;
+      font-family: 'Times New Roman', Times, serif;
+  }
+
+  header {
+      padding: 20px 35px;
+      background-color: #FFA500;
+  }
+
+  header h1 {
+      font-weight: bold;
+      font: 36px;
+      color: #0000FF;
+      margin: 0;
+      display: inline;
+  }
+
+  header nav{
+      float: right;
+      margin: 7px 0;
+  }
+
+  header nav ul li {
+      display: inline;
+  }
+
+  footer {
+      background: #0000FF;
+      width: 100%;
+      padding: 40px 35px;
+  }
+
+  footer div {
+      float: right;
+      line-height: 1.5;
+      text-align: right;
+  }
+
+  footer a{
+      color: #FFD700;
+  }
