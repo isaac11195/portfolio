@@ -83,35 +83,6 @@
     margin: 0 auto;
   }
   
-  .steps {
-    text-align: center;
-    background: #0000FF;
-  }
-  
-  .steps div {
-    margin-bottom: 80px;
-  }
-  
-  .steps img {
-    width: 15%;
-    margin: 10px 0;
-  }
-  
-  .steps h3 {
-    color: #FFD700;
-    font-size: 46px;
-    margin-top: 10px;
-  }
-  
-  .steps p {
-    color: #FFA500;
-    font-size: 23px;
-  }
-  
-  .steps span {
-    font-size: 38px;
-  }
-  
   .section-title {
     font-size: 55px;
     color: #FFA500;
@@ -128,4 +99,51 @@
   .secondary-border {
     border-color: #FFA500;
   }
-  
+
+  .works{
+      text-align: center;
+  }
+
+  .work {
+      width: 900px;
+      margin: 0 auto 30px auto;
+      background: #FFA500;
+      color: #0000FF;
+      overflow: auto;
+  }
+
+.works img {
+    width: 35%;
+    float: left;
+}
+
+.work-bio h3{
+    font-weight: lighter;
+    font-size: 26px;
+    margin-bottom: 25px;
+}
+
+.work-bio{
+    width: 35%;
+    float: left;
+    width: 65%;
+}
+
+.work-bio h3{
+    font-size: 32px;
+    margin-bottom: 8px;
+}
+
+
+
+.work-bio p{
+    font-size: 17px;
+    line-height: 1.3px;
+}
+
+.text-right{
+    text-align: right;
+}
+ .text-left {
+     text-align: left;
+ }
