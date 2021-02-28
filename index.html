@@ -2,102 +2,131 @@
 <html lang="en-us">
   <head>
     <meta charset="UTF-8" />
+    
+
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Professional Portfolio</title>
+  </head>
 
-    <link rel="stylesheet" href="./assets/css/style.css" />
+  <body>
+    <header>
+      <h1>Isaac's Portfolio</h1>
 
-    </head>
+      <nav>
+        
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#about-me">About Me</a></li>
+            <li><a href="#works">Works</a></li>
+            <li><a href="resume.html">Resume</a></li>
+            <li><a href="#reach-out">Reach Out</a></li>
+        </ul>
+      </nav>
+    </header>
 
-    <body>
+    <!-- "about me" section -->
+    <section id="about-me" class="intro">
+        <div class="flex-row">
+        <h2 class="section-title primary-border">
+            About Me
+        </h2>
+    </div>
+    <div class="flex-row">
+        <p>
+            Hello, I'm Isaac Perez. I work fixing elevator that's means that I reprogramming and finding the troubleshoot for the elevator.
+            Meant time I study two mayor in 8 years in those mayor I study the basic of programming of PLC and visual studios c++.
+        </p>
 
-        <header>
-            <h1>
-                <a href="/">
-                Isaac's Portfolio
-                </a>
-            </h1>
-            
+    </div>
+    </section>
+<!-- end "about me" -->
 
-            <nav>
-                <ul>
-                    <li>
-                        <a href="Home">Home</a>
-                    </li>
-                    <li>
-                        <a href="#about-me">About Me</a>
-                    </li>
-                    <li>
-                        <a href="#work">Work</a>
-                    </li>
-                    <li>
-                        <a href="#contact-me">Contact Me</a>
-                    </li>
-                    <li>
-                        <a href="resume.html">Resume</a>
-                    </li>
-                </ul>
-            </nav>
-        </header>
-        <section id="about-me" class="intro">
-            <h2 class="section-title primary-boder">About Me</h2>
-            <p>
-                My name is Isaac Perez. I study electrical engineer and technology electronic.
-                I just move to Kissimmee,FL to have new opportunity to find work and skill on the field.
-                But I'm learning a new skill call coding webside is a good skill for the future.
-            </p>
+    
+    <section id="container">
+        <div class="flex-row">
+            <h2 class="section-title primary-border">
+                My Works
+            </h2>
+        </div>
+        <div class="works">
+        <article class="work">
+            <img src="assets/images/work1.jpg" alt="SmartRise Elevator">
+            <div class="work-bio">
+                <h3 class="work-name">SmartRise Elevator</h3>
+                <h4 class="work-role">Company of Elevator</h4>
+                <p>
+                    This company works pieces of elevator and programs. I work with there materials and there programs of c#.
+                </p>
+            </div>
+        </article>
 
-            <p>
-                This is a great project for me because I am learning new skill and new way to think more
-                in the part of programming or in the part of studying.
-            </p>
+        <article class="work">
+            <img src="assets/images/work2.jpg" alt="Run Buddy">
+            <div class="work-bio">
+                <h3 class="work-name">Run Buddy</h3>
+                <h4 class="work-role">HTML+CSS</h4>
+                <p>
+                    This work I'm learning how to use the programs of HTML and CSS in webside and at phone.
+                </p>
+
+            </div>
+        </article>
+
+        <article class="work">
+            <img src="assets/images/work3.png" alt="Elevator Control">
+            <div class="work-bio">
+                <h3 class="work-name">Elevtor Control</h3>
+                <h4 class="work-role">Company of Elevator</h4>
+                <p>
+                    This company works with pieces of elevator and programs. I work with there materials and there programs.
+                </p>
+            </div>
+        </article>
+        <article class="work">
+            <img src="assets/images/work4.jpg" alt="Drone">
+            <div class="=work-bio">
+                <h3 class="work-name">Drone</h3>
+                <h4 class="work-role">For Emergency only</h4>
+                <p>
+                    This drone I worked it in capstone. This drone work with programs and this drone suppose to move a person to one place to another.
+                </p>
+            </div>
+        </article>
         </section>
 
-        <article id="your-work" class="works">
-            <h2 class="section-title secondary-border">Work</h2>
-            <article class="work">
-            
-                <img src="./assets/images/work1.jpg" alt="View more info"/>
-                <div class="work-bio text-left">
-                <h3><span>SmartRise Elevator</span></h3>
-                <p>Installing, programming & mechanic</p>
-            </div>
-             </article>
+            <section id="contact-info" class="contact">
+                <div class="flex-row">
+                    <h2 class="section-title secondary-border">
+                      Reach Out
+                    </h2>
+                </div>
 
-             <article class="work">
-            <div class="work-bio text-right">
-                <img src="assets/images/work2.jpg" alt="View more info"/>
-                <h3><span>Run Buddy</span></h3>
-                <p>Programming HTML & CSS</p>
-            </div>
-            </article>
+                <div class="contact-info">
+                    <div>
+                        <h3>Isaac Perez</h3>
+                    </div>
 
-            <article class="work">
-            <div class="work-bio text-left">
-                <img src="assets/images/work3.png" alt="View more info"/>
-                <h3><span>Elevator Control</span></h3>
-                <p>Installing & being a mechanic</p>
+                    <address>
+                        <ul>
+                            <li><strong>Phone:</strong><a href="#">phoneNumber</a></li>
+                            <li><strong>Email:</strong> <a href="#">someplace@gmail.com</a></li>
+                            <li><strong>Github:</strong> <a href="#">sampleName</a></li>
+                            <li><strong>LinkedIn:</strong> <a href="#">coming soon</a></li>
+                          </ul>
+                    </address>
+                </div>
+                
+              </section>
 
+              <footer>
+                  <h2>Made by Isaac Perez.</h2>
+                  <div>
+                      <a href="./resume.html">Resume</a><br/>
+                      &copy; 2021 Isaac Company.
+                  </div>
+              </footer>
             </div>
-            </article>
-            <article class="work">
-            <div class="work-bio text-right">
-                <img src="assets/images/work4.jpg" alt="/">
-                <h3><span>Drone</span></h3>
-                <p>Program the drone & work in capstone</p>
-            </div>
-        </section>
-       </article>
-
-        <section>
-            <h2>Contact Me</h2>
-        </section>
-
-        <footer>
-            <h2>Made by Isaac Perez.</h2>
-            <div>
-              <a href="#">Read My Resume</a><br />
-              &copy; 2021 Isaac's Company.
-            </div>
-          </footer>
-    </body>
-    </html>
+          </body>
+        </html>
+        
