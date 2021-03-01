@@ -9,7 +9,7 @@ A website of my Porfolio.
 * CSS
 
 ##Website
-file:///C:/Users/isaac/Desktop/projects/portfolio/index.html
+https://github.com/isaac11195/portfolio
 
 ##Contribution
 Made by Isaac Perez
