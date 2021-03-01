@@ -154,6 +154,7 @@ section {
   margin-bottom: 15px;
 }
 
+/* REACH OUT STYLES START */
 
 .contact {
   background: var(--secundary-color);
@@ -174,6 +175,10 @@ section {
 .contact-info > *{
   flex: 1;
   margin: 15px;
+}
+
+.contact-info iframe {
+  height: 400px;
 }
 
 .contact-info div{

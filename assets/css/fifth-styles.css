@@ -15,28 +15,39 @@
     font-style: italic;
   }
   
-  .third-content {
+  .fifth-content {
     width: 80%;
     margin: 0 auto;
     color: #024e76;
   }
   
-  .third-content h3 {
+  .fifth-content p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 20px 0;
+  }
+
+   
+  .fifth-content h3 {
     font-size: 25px;
     margin: 20px 0;
   }
   
-  .third-content p {
+  .fifth-content p {
     font-size: 16px;
     line-height: 1.5;
     margin: 20px 0;
   }
   
-  .third-content ul {
+  .fifth-content ul {
     margin: 15px 20px;
   }
   
-  .third-content li {
+  .fifth-content li {
     color: #39a6b2;
     margin: 10px 0;
+  }
+  
+  .fifth-content img{
+      width: 100%;
   }
