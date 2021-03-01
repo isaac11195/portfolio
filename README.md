@@ -13,4 +13,6 @@ https://github.com/isaac11195/portfolio
 
 ##Contribution
 Made by Isaac Perez
+
+### ©️2021 Portfolio, Inc 
 Isaac's Portfolio
