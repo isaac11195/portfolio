@@ -1,3 +1,9 @@
+:root{
+  --primary-color: #024e76;
+  --secundary-color: #eee;
+  --tertiary-color: #A9A9A9;
+}
+
 .hero {
     background-position: bottom;
     height: auto;
@@ -6,9 +12,8 @@
   }
   
   .page-title {
-    color: #fce138;
+    color: var(--primary-color);
     display: inline-block;
-    border-bottom: 4px solid #fce138;
     padding: 0 80px 15px 80px;
     font-weight: normal;
     font-size: 42px;
@@ -18,7 +23,7 @@
   .third-content {
     width: 80%;
     margin: 0 auto;
-    color: #024e76;
+    color: var(--primary-color);
   }
   
   .third-content h3 {
@@ -37,6 +42,11 @@
   }
   
   .third-content li {
-    color: #39a6b2;
+    color: var(--primary-color);
     margin: 10px 0;
+  }
+
+  footer div{
+    line-height: 1.5;
+    text-align: right;
   }

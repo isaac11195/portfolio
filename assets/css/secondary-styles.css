@@ -1,13 +1,23 @@
-
+:root{
+  --primary-color: #024e76;
+  --secundary-color: #eee;
+  --tertiary-color: #A9A9A9;
+}
+  
+  
   .hero {
     background-position: bottom;
     height: auto;
-    text-align: center;
+    /* text-align: center; */
     margin-bottom: 40px;
+  }
+
+  .underline{
+    text-decoration: underline;
   }
   
   .page-title {
-    color: #fce138;
+    color: var(--primary-color);
     display: inline-block;
     border-bottom: 4px solid #fce138;
     padding: 0 80px 15px 80px;
@@ -16,7 +26,7 @@
     font-style: italic;
   }
   
-  .-content {
+  .content {
     width: 80%;
     margin: 0 auto;
     color: #024e76;
@@ -30,10 +40,30 @@
   .secondary-content ul {
     margin: 15px 20px;
     display: inline;
-    display: center;
+    /* display: center; */
   }
   
   .secondary-content li {
     color: #39a6b2;
     margin: 10px 0;
+  }
+
+  footer div{
+    line-height: 1.5;
+    text-align: right;
+  }
+
+  footer {
+    background-color: var(--primary-color);
+    padding: 5px 5px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+  
+  footer h2{
+    color: var(--secundary-color);
+    font-size: 30px;
+    margin: 0;
   }

@@ -10,6 +10,10 @@
   padding: 0;
 }
 
+.underline{
+  text-decoration: underline;
+}
+
 .container {
   width: 1024px;
   margin: 0 auto;
@@ -31,7 +35,7 @@ header {
   position: -webkit-sticky;
   position: sticky;
   top: 0;
-  background-image: url("../images/Smartrise\ controller.jpg");
+  background-image: url("../images/work2.jpg");
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
