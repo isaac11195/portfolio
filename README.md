@@ -11,7 +11,12 @@ A website of my Porfolio.
 * The program add the img and alt to see each one
 * Change image of header to the same as Run Buddy
 * The program works very well.
+<<<<<<< HEAD
 ## Website
+=======
+
+##Website
+>>>>>>> 18642eac48449bdc9d15dfa466aa7399ca6af943
 https://github.com/isaac11195/portfolio
 
 ## Contribution
