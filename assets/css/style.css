@@ -127,14 +127,14 @@ section {
   justify-content: space-around;
 }
 
-.work {
+.works {
   margin: 20px;
   flex: 1;
   background: var(--secundary-color);
   color: var(--primary-color);
 }
 
-.work img{
+.works img{
   width: 100%;
 }
 
